@@ -1,0 +1,35 @@
+.img-box{
+    width: 15em;
+    height: 15em;
+    margin: .8%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.img-box img{
+    width:auto;
+    margin:1%;
+}
+.img-box-ipt{
+    position: absolute;
+    top:0;
+    right:0;
+    display: none;
+}
+.img-box-ipt input{
+    display: none;
+}
+.img-box-ipt label{
+    border:1px solid #dddddd;
+    border-radius: 3px;
+    width: 20px;
+    height:20px;
+}
+.img-box-ipt input:checked+label{
+    background: #1AA094 url("../images/gou.png") no-repeat center center;
+    background-size: 70% 70%;
+    border:none;
+}
+.img-box.active .img-box-ipt{
+    display: block;
+}

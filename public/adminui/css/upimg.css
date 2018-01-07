@@ -1,0 +1,18 @@
+.pic_show ul{
+	overflow: hidden;
+}
+.pic_show ul li{
+	width: 150px;height: 150px;float: left;margin: 10px;margin-left: 0;
+}
+.pic_box{
+	width: 100%;height: 100%;overflow: hidden;position: relative;border: 1px solid #e2e2e2;padding: 5px;border-radius: 5px;
+}
+.pic_box:hover .delete_pic{display: block;}
+.pic_box img{width: 100%;}
+.delete_pic{
+	width: 34px;height: 34px;position: absolute;top: 58px;left: 58px;text-align: center;cursor: pointer;
+	display: none;background: #4a4a4a;padding: 5px;border-radius: 5px;
+}
+.delete_pic img{
+	width: 100%;
+}
