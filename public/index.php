@@ -1,5 +1,5 @@
 <?php
-
+echo "xiaoqiandai";die();
 
 /**
  * Laravel - A PHP Framework For Web Artisans
